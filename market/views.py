@@ -5,13 +5,13 @@ from requests.exceptions import HTTPError
 
 # Create your views here.
 
-##pk_5fbf6509c38448ffa21b2ed3cc4dad6c
+##pk_
 ##https://iexcloud.io/docs/api/
 
-##https://cloud.iexapis.com/stable/stock/aapl/quote?token=pk_5fbf6509c38448ffa21b2ed3cc4dad6c
+
 
 def home(request):
-    api_key= 'pk_5fbf6509c38448ffa21b2ed3cc4dad6c'
+    api_key= ''
     proxies = {
         "http": "http://192.168.191.242:8080",
         "https": "http://192.168.191.242:8080",
