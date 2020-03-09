@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+
+<br/><br/>
+<h3>Stock Market Data</h3>
+
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        {% for key, value in api_data.items %} 
+        <ul style="list-style-type:none">
+           
+            <li class="col-sm-15 font-weight-bold">{{ key }}:&nbsp;&nbsp; {{ value }}</li>
+          </ul>
+         {% endfor %}
+    </div>
+  </div>
+ 
+  {{company}}
+  
+
+{% endblock %}
